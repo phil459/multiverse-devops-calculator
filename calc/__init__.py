@@ -25,3 +25,7 @@ def alt_index(start_number, operation_number):
 
 def index(start_number, operation_number):
     return start_number**operation_number
+
+
+def add_then_multiply(start_number, operation_number):
+    return (start_number+operation_number)*operation_number

@@ -34,6 +34,9 @@ def main():
 
     elif operation == "index":
         result = index(start_number, operation_number)
+
+    elif operation == "add-then-multiply":
+        result = add_then_multiply(start_number, operation_number)
     
     else:
         raise Exception(f"Unsupported or invalid operation '{operation}'")
