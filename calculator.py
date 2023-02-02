@@ -1,6 +1,6 @@
 import sys
 #from helpers import add_prefix
-from calc import add, subtract, multiply, divide, index
+from calc import add, subtract, multiply, divide, index, add_then_multiply
 
 def get_args():
     try:
@@ -42,8 +42,6 @@ def main():
 
     return 0
 
-def calculator():
-    pass
 
 if __name__ == '__main__':
-    sys.exit(calculator())
+    sys.exit(main())
