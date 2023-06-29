@@ -1,6 +1,6 @@
 import sys
 #from helpers import add_prefix
-from calc import add, subtract, multiply, divide, index, add_then_multiply
+from calc import add, subtract, multiply, divide, index, add_then_multiply, n_root
 
 def get_args():
     try:
@@ -37,6 +37,9 @@ def main():
 
     elif operation == "add-then-multiply":
         result = add_then_multiply(start_number, operation_number)
+
+    elif operation == "root":
+        result = n_root(start_number, operation_number)
     
     else:
         raise Exception(f"Unsupported or invalid operation '{operation}'")

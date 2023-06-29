@@ -29,3 +29,6 @@ def index(start_number, operation_number):
 
 def add_then_multiply(start_number, operation_number):
     return (start_number+operation_number)*operation_number
+
+def n_root(start_number, operation_number):
+    return start_number**(1/operation_number)
